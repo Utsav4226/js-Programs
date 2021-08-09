@@ -47,5 +47,11 @@ for (var a = 0; a < NumberArr.length; a++) {
 }
 
 console.log(PrimeArr);
+
+//sum of the prime number's array
+var SumofPeimeArray = PrimeArr.reduce(function(a, b) {
+  return a + b;
+});
+console.log(SumofPeimeArray);
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
